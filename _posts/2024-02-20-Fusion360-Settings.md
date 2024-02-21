@@ -15,16 +15,16 @@ If Fusion does not reopen after changing this file, revert to the original
 ## Settings of Interest
 Some particular settings were of interest when starting this work. Some of these settings are not accesible at the GUI level, so being able to change them here was a must. These settings seem to retain across sessions, and can override the default colors of a file. Not all settings have been tested/played around with so change at own risk.
 
-Interface.VectorFont = "1"  
+##### Interface.VectorFont = "1"  
 Changes vector font to always be on, good for PCB as it will show more accurate layout of silkscreen text.
 
-Brd.CommandPopup.Display.1 = "Preset_Top; 18 23 39 25 1 41 51 20 19 21 17;"  
+##### Brd.CommandPopup.Display.1 = "Preset_Top; 18 23 39 25 1 41 51 20 19 21 17;"  
 Along with other similar commands, can set presets for what layers to display, but this can also be done in app
 
-Layer.Colors.1 = "0xccc90c0c 0xccc90d0c 0xccc90d0c"  
+##### Layer.Colors.1 = "0xccc90c0c 0xccc90d0c 0xccc90d0c"  
 This along with the all the other layers were what this original exploration was for. The three hex codes are the colors for that particular layer according to which palette you choose. Palette can be chosen later, but this file sets to white background for schematic and black background for PCB.
 
-Layer.Fill.1 = "8"  
+##### Layer.Fill.1 = "8"  
 According to Fusion documentation, fill type of each layer can also be changed 
 
 ## File
